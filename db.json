@@ -1,5 +1,5 @@
 {
-  "filtered_water_requests": [
+  "water_requests": [
     {
       "id": 1,
       "resident_id": 101,
