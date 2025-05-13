@@ -332,6 +332,14 @@
       "status": "inactive",
       "sensor_id": 302,
       "resident_id": 2
+    },
+    {
+      "id": 1003,
+      "start_date": "2025-02-01T00:00:00Z",
+      "end_date": "2025-07-31T23:59:59Z",
+      "status": "inactive",
+      "sensor_id": 304,
+      "resident_id": 3
     }
   ]
 }
