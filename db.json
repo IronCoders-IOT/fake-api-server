@@ -307,6 +307,13 @@
       "last_name": "Gómez",
       "user_id": 102,
       "provider_id": 10
+    },
+    {
+      "id": 3,
+      "first_name": "Melies",
+      "last_name": "Orte",
+      "user_id": 103,
+      "provider_id": 9
     }
   ],
   "subscriptions": [
