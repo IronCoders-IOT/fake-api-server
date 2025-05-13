@@ -292,5 +292,39 @@
       "phone": 974563218,
       "sensors_number": 12
     }
+  ],
+  "residents": [
+    {
+      "id": 1,
+      "first_name": "Juan",
+      "last_name": "Pérez",
+      "user_id": 101,
+      "provider_id": 201
+    },
+    {
+      "id": 2,
+      "first_name": "María",
+      "last_name": "Gómez",
+      "user_id": 102,
+      "provider_id": 202
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": 1001,
+      "start_date": "2025-01-01T00:00:00Z",
+      "end_date": "2025-12-31T23:59:59Z",
+      "status": "active",
+      "sensor_id": 301,
+      "resident_id": 1
+    },
+    {
+      "id": 1002,
+      "start_date": "2025-02-01T00:00:00Z",
+      "end_date": "2025-07-31T23:59:59Z",
+      "status": "inactive",
+      "sensor_id": 302,
+      "resident_id": 2
+    }
   ]
 }
