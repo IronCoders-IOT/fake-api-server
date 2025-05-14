@@ -1,4 +1,69 @@
 {
+   "residents":[
+   {
+    "id": 1,
+    "first_name": "Juan",
+    "last_name": "Pérez",
+    "user_id": 101,
+    "provider_id": 9,
+    "phone": "987654321",
+    "address": "Av. Los Pinos 123",
+    "sensor_events": [
+      {
+        "event": "Quality",
+        "water_quality": "pH = 10",
+        "status": "Normal",
+        "water_level": "High"
+      },
+      {
+        "event": "Pressure",
+        "water_quality": "pH = 7",
+        "status": "Alert",
+        "water_level": "Medium"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "first_name": "María",
+    "last_name": "Gómez",
+    "user_id": 102,
+    "provider_id": 10,
+    "phone": "912345678",
+    "address": "Jr. Las Flores 456",
+    "sensor_events": [
+      {
+        "event": "Water Level",
+        "water_quality": "pH = 6",
+        "status": "Critical",
+        "water_level": "Low"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "first_name": "Melies",
+    "last_name": "Orte",
+    "user_id": 103,
+    "provider_id": 9,
+    "phone": "965432187",
+    "address": "Calle Primavera 789",
+    "sensor_events": [
+      {
+        "event": "Quality",
+        "water_quality": "pH = 9",
+        "status": "Normal",
+        "water_level": "High"
+      },
+      {
+        "event": "Water Level",
+        "water_quality": "pH = 6",
+        "status": "Critical",
+        "water_level": "Low"
+      }
+    ]
+  }
+   ],
   "water_requests": [
     {
       "id": 1,
