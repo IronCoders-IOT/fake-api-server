@@ -341,5 +341,50 @@
       "sensor_id": 304,
       "resident_id": 3
     }
+  ],
+  "sensor":[
+    {
+      "id":1,
+      "type":"1025A",
+      "status":"active",
+      "description":"Sensor de calidad de agua",
+      "resident_id":1
+    },
+    {
+      "id":2,
+      "type":"1025B",
+      "status":"inactive",
+      "description":"Sensor de calidad de agua",
+      "resident_id":1
+    },
+    {
+      "id":3,
+      "type":"1025C",
+      "status":"active",
+      "description":"Sensor de calidad de agua",
+      "resident_id":1
+    }
+  ],
+  "event":[{
+    "id": 1,
+    "event_type": "water_request",
+    "quality_value": "7",
+    "level_value": "High",
+    "sensor_id": 1
+  },
+  {
+    "id": 2,
+    "event_type": "water_request",
+    "quality_value": "8",
+    "level_value": "Medium",
+    "sensor_id": 2
+  },
+  {
+    "id": 3,
+    "event_type": "water_request",
+    "quality_value": "6",
+    "level_value": "Low",
+    "sensor_id": 3
+  }
   ]
 }
